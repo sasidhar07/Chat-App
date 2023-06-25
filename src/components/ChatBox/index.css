@@ -1,0 +1,56 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+}
+input{
+    outline: none;
+    border: 0;
+    width: 100%;
+    background-color: transparent;
+}
+.sendImg{
+    height: 22px;
+    background-color: transparent;
+    margin-top: 3px;
+
+}
+.sendButton{
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+
+}
+.inputCard{
+    border: solid 2px #a1a8b3;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    width: 80%;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: auto;
+    
+
+}
+.emojiAndSendCard{
+    display: flex;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(240, 239, 238);
+
+
+}

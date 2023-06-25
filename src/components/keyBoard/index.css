@@ -1,0 +1,36 @@
+.picker-container {
+  position: absolute;
+  margin-left: auto;
+  margin-top: auto;
+  right: 21%;
+  bottom: 70px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .picker-container {
+    position: absolute;
+    
+    right: 2%;
+    bottom: 70px;
+    max-width: 100%;
+  }
+}
+
+.emojiIcon{
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+}
+.emojiImg{
+  height: 22px;
+  margin-right: 8px;
+}
+.activeEmoji{
+  opacity: 0.5;
+  border: 0;
+  outline: none;
+}

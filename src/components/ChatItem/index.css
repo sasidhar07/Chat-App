@@ -1,0 +1,109 @@
+.amber {
+    background-color: #f59e0b;
+  }
+  
+  .blue {
+    background-color: #0b69ff;
+  }
+  
+  .orange {
+    background-color: #f97316;
+  }
+  
+  .red {
+    background-color: #b91c1c;
+  }
+  
+  .light-blue {
+    background-color: #0ea5e9;
+  }
+  
+  .profile{
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: white;
+    width: 50px;
+    margin-right: 5px;
+    margin-top: 7px;
+    max-width: 100%;
+    
+    
+  }
+
+  .eachChatItem{
+    display: flex;
+    width: 90%;
+    padding: 0;
+    margin: 10px;
+  }
+  .userNameDetailes{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  h1{
+    margin: 0;
+  }
+  p{
+    margin: 0;
+  }
+  .likeButton{
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    align-self: flex-start;
+  }
+  .likeImg{
+    height: 22px;
+    background-color:transparent;
+  }
+  .messagePara{
+    margin-top: 15px;
+    display: flex;
+
+    justify-content: space-between;
+    background-color: #dddfe0dc;
+    padding: 15px;
+    
+    border-radius: 13px;
+    border-top-left-radius: 0px;
+
+
+  }
+  h2{
+    margin: 0;
+  }
+  
+  .userNameHeading{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .likeCard{
+    display: flex;
+    justify-content: center;
+  }
+  .messageCard{
+    margin: 0;
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    
+  }
+  .noOfLikes{
+    color: #054dc0;
+    white-space: nowrap;
+  }
+  .messParagraph{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .date{
+    color: #7b7474;
+  }
