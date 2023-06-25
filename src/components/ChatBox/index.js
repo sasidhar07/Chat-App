@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import ChatItem from '../ChatItem/index';
 import './index.css';
-
 import KeyBoardPicker  from '../keyBoard/index';
 
 const profileBackgroundClassNames = [
@@ -60,6 +59,7 @@ class ChatBox extends Component {
           ))}
         </ul>
         <div className="inputCard">
+
           <input
           value={chatText}
             onChange={this.ChatInputChange}
